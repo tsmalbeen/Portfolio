@@ -107,7 +107,7 @@ const PROJETS = [
     image: "assets/images/moet-caves.jpg",
   },
   {
-    titre: "Dongle capteurs physiologiques",
+    titre: "Device Bridge",
     categorie: "Outils et R&D",
     periode: "En cours",
     resume:
