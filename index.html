@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tristan Smalbeen, ingénieur logiciel</title>
+  <meta name="description" content="Tristan Smalbeen, ingénieur logiciel. Dix ans de développement en C#, C++ et Python, sur des simulateurs, de la 3D temps réel, de la VR et de l'intégration de capteurs.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css?v=13">
+</head>
+<body>
+
+  <header class="nav">
+    <a class="nav__logo" href="#accueil">T. Smalbeen</a>
+    <nav class="nav__liens" aria-label="Navigation principale">
+      <a href="#projets">Projets</a>
+      <a href="#lab">Lab</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#competences">Compétences</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ACCUEIL -->
+    <section class="hero" id="accueil">
+      <div class="hero__texte">
+        <p class="etiquette">Ingénieur logiciel</p>
+        <h1 class="hero__titre">Tristan Smalbeen</h1>
+        <p class="hero__accroche">
+          Je développe des logiciels depuis dix ans, surtout en C#, mais aussi en C++ et en Python.
+          J'ai beaucoup travaillé sur des simulateurs, de la 3D temps réel et de la VR.
+          Je cherche aujourd'hui des projets de développement logiciel de tout type.
+        </p>
+        <div class="hero__actions" id="hero-actions">
+          <a class="bouton bouton--plein" href="#projets">Voir les projets</a>
+          <a class="bouton" href="#contact">Me contacter</a>
+          <!-- Les boutons GitHub et LinkedIn s'ajoutent ici s'ils sont renseignés dans js/contenu.js -->
+        </div>
+      </div>
+
+      <dl class="fiche">
+        <div class="fiche__ligne"><dt>Expérience</dt><dd>10 ans de développement professionnel</dd></div>
+        <div class="fiche__ligne"><dt>Langages</dt><dd>C#, C++, Python</dd></div>
+        <div class="fiche__ligne"><dt>Domaines</dt><dd>Temps réel, 3D, intégration matérielle, applicatif</dd></div>
+        <div class="fiche__ligne"><dt>Livré</dt><dd>Simulateurs, outils, applications de formation, jeux</dd></div>
+        <div class="fiche__ligne"><dt>Formation</dt><dd>Ingénieur en informatique, UTC</dd></div>
+        <div class="fiche__ligne"><dt>Langues</dt><dd>Français, anglais</dd></div>
+        <div class="fiche__ligne"><dt>Ouvert à</dt><dd>Tout projet de développement logiciel</dd></div>
+        <div class="fiche__ligne"><dt>Zone</dt><dd>Hauts-de-France, Paris, télétravail</dd></div>
+        <div class="fiche__ligne"><dt>Formats</dt><dd>Poste salarié, freelance ou mission</dd></div>
+      </dl>
+    </section>
+
+    <!-- PROJETS -->
+    <section class="section" id="projets">
+      <div class="section__entete">
+        <div>
+          <h2 class="section__titre">Projets</h2>
+        </div>
+        <div class="filtres" id="filtres" role="group" aria-label="Filtrer les projets"></div>
+      </div>
+      <!-- Les cartes sont générées depuis js/contenu.js -->
+      <div class="grille" id="grille-projets"></div>
+    </section>
+
+    <!-- LAB -->
+    <section class="section" id="lab">
+      <div class="section__entete">
+        <div>
+          <h2 class="section__titre">Lab</h2>
+        </div>
+        <p class="section__note">
+          Mes projets personnels en cours, à différents stades d'avancement.
+        </p>
+      </div>
+      <div class="grille grille--lab" id="grille-lab"></div>
+    </section>
+
+    <!-- PARCOURS -->
+    <section class="section" id="parcours">
+      <div class="section__entete">
+        <div>
+          <h2 class="section__titre">Parcours</h2>
+        </div>
+      </div>
+
+      <div class="parcours">
+        <div class="parcours__texte">
+          <p>
+            Je suis ingénieur en informatique, diplômé de l'UTC. J'ai passé dix ans chez Reviatech,
+            où j'ai développé des simulateurs, des applications de formation et des jeux, en C# et
+            en C++. J'y ai aussi été chef de projet technique, avec une équipe de trois personnes.
+          </p>
+          <p>
+            Sur ces projets je m'occupais d'à peu près tout, du cahier des charges avec le client
+            jusqu'à la livraison, en passant par l'architecture, le développement et les tests.
+          </p>
+          <p>
+            Depuis 2026 je suis indépendant. Je travaille en ce moment sur un logiciel en Python
+            qui intègre des capteurs physiologiques, donc sans 3D ni VR. La plupart des projets
+            présentés ici sont en VR parce que c'est ce que j'ai le plus fait, mais je cherche du
+            développement logiciel en général et j'apprends vite un nouveau langage ou un nouveau
+            domaine.
+          </p>
+          <p>
+            J'utilise Claude Code et Cursor tous les jours pour aller plus vite, en relisant et en
+            comprenant ce qui est produit.
+          </p>
+        </div>
+
+        <ol class="chrono">
+          <li class="chrono__etape">
+            <p class="chrono__date">Depuis 2026</p>
+            <h3>Ingénieur développement logiciel <span>Indépendant</span></h3>
+            <ul>
+              <li>Développement d'un simulateur métier en C# avec Unity</li>
+              <li>Développement en Python pour l'intégration de capteurs physiologiques (ECG, etc.)</li>
+              <li>Plusieurs jeux Unity développés en parallèle (VR, WebGL)</li>
+            </ul>
+          </li>
+          <li class="chrono__etape">
+            <p class="chrono__date">2015 – 2025</p>
+            <h3>Ingénieur développement logiciel <span>Reviatech, Venette</span></h3>
+            <p>
+              Applications interactives et temps réel pour des clients comme Bouygues Construction,
+              Moët & Chandon, Disney, Saint-Gobain ou France Travail.
+            </p>
+            <ul>
+              <li>Développement principalement en C# / C++ dans des environnements temps réel</li>
+              <li>Conception de systèmes, architecture et structuration des projets</li>
+              <li>Intégration de composants logiciels, systèmes d'interaction, interfaces, périphériques et capteurs</li>
+              <li>Projets d'innovation et de recherche (ANR, projets européens, DGA RAPID)</li>
+              <li>Analyse des besoins, cahiers des charges, estimation des charges</li>
+              <li>Organisation des tests, du déploiement et du suivi technique</li>
+              <li>Chef de projet technique sur des simulateurs de formation, encadrement d'une équipe de 3 personnes</li>
+              <li>Suivi client, propositions commerciales et conception pédagogique des projets</li>
+            </ul>
+          </li>
+          <li class="chrono__etape">
+            <p class="chrono__date">2013</p>
+            <h3>Stage développeur web / VBA <span>Honeywell, Beauvais</span></h3>
+            <p>Développement d'un ENT et d'un outil de gestion des congés, amélioration d'applications VBA sous Microsoft Access.</p>
+          </li>
+          <li class="chrono__etape">
+            <p class="chrono__date">2012</p>
+            <h3>Stage recherche et développement <span>UPJV, Amiens</span></h3>
+            <p>Reconnaissance d'objets dans des images omnidirectionnelles, développement et expérimentation sous MATLAB.</p>
+          </li>
+          <li class="chrono__etape">
+            <p class="chrono__date">2009 – 2015</p>
+            <h3>Ingénieur en informatique <span>Université de Technologie de Compiègne (UTC)</span></h3>
+            <p>DUT à l'UPJV, Amiens (2011 – 2012).</p>
+          </li>
+        </ol>
+      </div>
+
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section class="section" id="competences">
+      <div class="section__entete">
+        <div>
+          <h2 class="section__titre">Compétences</h2>
+        </div>
+      </div>
+
+      <div class="competences">
+        <div class="competence">
+          <h3>Développement logiciel</h3>
+          <ul class="tags">
+            <li>Conception et architecture</li><li>Programmation orientée objet</li><li>Systèmes modulaires et réutilisables</li><li>Intégration de composants</li><li>Débogage</li><li>Tests et validation</li>
+          </ul>
+        </div>
+        <div class="competence">
+          <h3>Langages</h3>
+          <ul class="tags">
+            <li>C#</li><li>C++</li><li>Python</li><li>SQL</li><li>JavaScript / TypeScript</li><li>HTML / CSS</li><li>PHP (notions)</li>
+          </ul>
+        </div>
+        <div class="competence">
+          <h3>Intégration</h3>
+          <ul class="tags">
+            <li>API et intégration de systèmes</li><li>Intégration matérielle et capteurs</li><li>Interfaces utilisateur</li><li>Git</li>
+          </ul>
+        </div>
+        <div class="competence">
+          <h3>Gestion de projet</h3>
+          <ul class="tags">
+            <li>Recueil des besoins et cahiers des charges</li><li>Estimation et planification</li><li>Suivi technique et déploiement</li><li>Encadrement d'une équipe de 3 personnes</li>
+          </ul>
+        </div>
+        <div class="competence">
+          <h3>Temps réel et 3D</h3>
+          <ul class="tags">
+            <li>Unity</li><li>3D interactive</li><li>Simulation</li><li>Gameplay</li><li>WebGL</li><li>Mecanim</li><li>Final IK</li><li>Unreal Engine (notions)</li>
+          </ul>
+        </div>
+        <div class="competence">
+          <h3>XR</h3>
+          <ul class="tags">
+            <li>OpenXR</li><li>MRTK</li><li>VRTK</li><li>Oculus SDK</li><li>SteamVR</li><li>Meta Quest</li><li>Pico</li><li>HoloLens</li><li>Varjo</li>
+          </ul>
+        </div>
+        <div class="competence">
+          <h3>Rendu</h3>
+          <ul class="tags">
+            <li>ShaderLab</li><li>HLSL</li><li>Shader Graph</li>
+          </ul>
+        </div>
+        <div class="competence">
+          <h3>Outils</h3>
+          <ul class="tags">
+            <li>Blender</li><li>Fusion 360</li><li>Mixamo</li><li>Cascadeur</li><li>Meshy</li><li>Visual Studio</li><li>VS Code</li><li>Cursor</li><li>Claude Code</li>
+          </ul>
+        </div>
+        <div class="competence competence--cap">
+          <h3>En cours d'approfondissement</h3>
+          <ul class="tags">
+            <li>.NET / ASP.NET</li><li>API REST</li><li>SQL</li><li>TypeScript</li><li>Applications desktop</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <h2 class="section__titre">Contact</h2>
+      <p class="contact__texte">
+        Je cherche un poste ou des missions en développement logiciel. La VR et le jeu vidéo
+        m'intéressent toujours, mais je regarde aussi tout le reste, alors n'hésitez pas à m'écrire.
+      </p>
+      <!-- Rempli depuis CONTACT dans js/contenu.js -->
+      <div class="contact__liens" id="contact-liens"></div>
+    </section>
+
+  </main>
+
+  <footer class="pied">
+    <span>© <span id="annee"></span> Tristan Smalbeen</span>
+    <a href="#accueil">Retour en haut</a>
+  </footer>
+
+  <!-- FICHE PROJET (s'ouvre au clic sur une carte) -->
+  <dialog class="fiche-projet" id="fiche" aria-labelledby="fiche-titre">
+    <button class="fiche-projet__fermer" id="fiche-fermer" type="button" aria-label="Fermer">✕</button>
+    <div class="fiche-projet__media" id="fiche-media" hidden></div>
+    <div class="fiche-projet__corps">
+      <p class="etiquette" id="fiche-categorie"></p>
+      <h3 id="fiche-titre"></h3>
+      <p class="fiche-projet__resume" id="fiche-resume"></p>
+      <div id="fiche-details"></div>
+    </div>
+  </dialog>
+
+  <script src="js/contenu.js?v=13"></script>
+  <script src="js/main.js?v=13"></script>
+</body>
+</html>
