@@ -154,6 +154,7 @@ const PROJETS = [
     ],
     technos: ["Unity", "C#", "Outil web", "Android", "Meshy", "Claude AI"],
     video: "https://www.youtube.com/watch?v=jFGEuK4IQG8",
+    image: "assets/images/museum-generator-outil.jpg",
   },
   {
     titre: "Formation projection mapping pour Disney",
