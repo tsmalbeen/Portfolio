@@ -126,6 +126,27 @@ const PROJETS = [
     image: "assets/images/dongle-application.jpg",
   },
   {
+    titre: "Expériences de physique-chimie",
+    categorie: "Projets perso",
+    resume:
+      "Plus de vingt simulations de physique-chimie pour le lycée, à manipuler en classe directement dans le navigateur.",
+    contexte:
+      "Un site destiné aux professeurs de physique-chimie, de la seconde à la terminale. Chaque expérience tient dans un seul fichier HTML, qui s'ouvre sans installation ni connexion et peut être copié seul sur une clé USB.",
+    role: "Projet personnel, développé en solo.",
+    points: [
+      "Mécanique (pendule, projectile, chute libre, masse-ressort, collisions)",
+      "Ondes (corde de Melde, interférences, effet Doppler, résonance)",
+      "Optique (réfraction, lentille convergente, diffraction, prisme)",
+      "Électricité (circuit RC, loi d'Ohm, circuit RLC)",
+      "Chimie (atomes et ions, dilution, réactif limitant, titrage, cinétique, pile Daniell, Beer-Lambert)",
+      "Recherche par notion et filtre par niveau",
+    ],
+    technos: ["JavaScript", "HTML", "CSS", "Canvas"],
+    lien: { texte: "Ouvrir le site", url: "https://tsmalbeen.github.io/ExperiencesPC/" },
+    image: "assets/images/experiences-pc-0.jpg",
+    galerie: ["assets/images/experiences-pc-1.jpg", "assets/images/experiences-pc-2.jpg"],
+  },
+  {
     titre: "Vortrix",
     categorie: "Projets perso",
     resume: "Jeu WebGL jouable directement dans le navigateur.",
