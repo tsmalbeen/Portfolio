@@ -75,6 +75,7 @@ const PROJETS = [
     ],
     technos: ["HoloLens", "Réalité augmentée"],
     lien: { texte: "Page du produit", url: "https://reviatech.com/solutions/revia-advisar" },
+    video: "https://www.youtube.com/watch?v=vfU0kFV0l4M&t=127s",
     image: "assets/images/advisar.jpg",
   },
   {

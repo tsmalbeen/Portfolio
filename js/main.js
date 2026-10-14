@@ -31,7 +31,11 @@ function analyserVideo(url) {
   const youtube = url.match(
     /(?:youtube\.com\/(?:watch\?(?:.*&)?v=|shorts\/|embed\/|live\/)|youtu\.be\/)([\w-]{11})/
   );
-  if (youtube) return { type: "youtube", id: youtube[1] };
+  if (youtube) {
+    // Un lien avec "&t=127s" fait démarrer la vidéo à ce moment-là
+    const debut = url.match(/[?&](?:t|start)=(\d+)/);
+    return { type: "youtube", id: youtube[1], debut: debut ? Number(debut[1]) : 0 };
+  }
 
   const vimeo = url.match(/vimeo\.com\/(?:video\/)?(\d+)/);
   if (vimeo) return { type: "vimeo", id: vimeo[1] };
@@ -140,7 +144,7 @@ function creerMedia(element) {
     const iframe = document.createElement("iframe");
     iframe.src =
       video.type === "youtube"
-        ? `https://www.youtube-nocookie.com/embed/${video.id}?autoplay=1&rel=0`
+        ? `https://www.youtube-nocookie.com/embed/${video.id}?autoplay=1&rel=0${video.debut ? `&start=${video.debut}` : ""}`
         : `https://player.vimeo.com/video/${video.id}?autoplay=1`;
     iframe.title = element.titre;
     iframe.allow = "autoplay; fullscreen; picture-in-picture; encrypted-media";
