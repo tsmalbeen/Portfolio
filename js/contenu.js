@@ -60,6 +60,24 @@ const PROJETS = [
     vedette: true,
   },
   {
+    titre: "Revia AdvisAR",
+    categorie: "Outils et R&D",
+    resume:
+      "Assistant en réalité augmentée qui guide les techniciens de maintenance pas à pas, directement sur l'équipement.",
+    contexte:
+      "Produit Reviatech. Les experts d'une entreprise créent des procédures augmentées sur PC ou sur HoloLens, puis les déploient aux techniciens sur le terrain, sans avoir à monter leur propre projet de R&D en réalité augmentée.",
+    role: "Lead développeur. J'ai développé l'ensemble de l'application en réalité augmentée, à l'exception de l'outil d'édition des procédures.",
+    points: [
+      "Aide au diagnostic et guidage pas à pas sur l'équipement réel",
+      "Création des procédures par les experts métier, sur PC ou sur HoloLens",
+      "Base de connaissances mise à jour au fil des interventions",
+      "Utilisable aussi en formation",
+    ],
+    technos: ["HoloLens", "Réalité augmentée"],
+    lien: { texte: "Page du produit", url: "https://reviatech.com/solutions/revia-advisar" },
+    image: "assets/images/advisar.jpg",
+  },
+  {
     titre: "Matform pour Bouygues Construction",
     categorie: "Simulation et formation",
     periode: "4 mois",
@@ -105,24 +123,6 @@ const PROJETS = [
     resultats: ["Formation utilisée sur site à Reims ou Épernay"],
     technos: ["Unity", "C#", "HTC Vive", "Mixamo", "Photoshop", "Git"],
     image: "assets/images/moet-caves.jpg",
-  },
-  {
-    titre: "Revia AdvisAR",
-    categorie: "Outils et R&D",
-    resume:
-      "Assistant en réalité augmentée qui guide les techniciens de maintenance pas à pas, directement sur l'équipement.",
-    contexte:
-      "Produit Reviatech. Les experts d'une entreprise créent des procédures augmentées sur PC ou sur HoloLens, puis les déploient aux techniciens sur le terrain, sans avoir à monter leur propre projet de R&D en réalité augmentée.",
-    role: "Lead développeur. J'ai développé l'ensemble de l'application en réalité augmentée, à l'exception de l'outil d'édition des procédures.",
-    points: [
-      "Aide au diagnostic et guidage pas à pas sur l'équipement réel",
-      "Création des procédures par les experts métier, sur PC ou sur HoloLens",
-      "Base de connaissances mise à jour au fil des interventions",
-      "Utilisable aussi en formation",
-    ],
-    technos: ["HoloLens", "Réalité augmentée"],
-    lien: { texte: "Page du produit", url: "https://reviatech.com/solutions/revia-advisar" },
-    image: "assets/images/advisar.jpg",
   },
   {
     titre: "Device Bridge",
