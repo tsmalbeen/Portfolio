@@ -113,6 +113,7 @@ const PROJETS = [
       "Assistant en réalité augmentée qui guide les techniciens de maintenance pas à pas, directement sur l'équipement.",
     contexte:
       "Produit Reviatech. Les experts d'une entreprise créent des procédures augmentées sur PC ou sur HoloLens, puis les déploient aux techniciens sur le terrain, sans avoir à monter leur propre projet de R&D en réalité augmentée.",
+    role: "Lead développeur. J'ai développé l'ensemble de l'application en réalité augmentée, à l'exception de l'outil d'édition des procédures.",
     points: [
       "Aide au diagnostic et guidage pas à pas sur l'équipement réel",
       "Création des procédures par les experts métier, sur PC ou sur HoloLens",
